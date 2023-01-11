@@ -1,7 +1,7 @@
 <?php
 
     // creo il paramentro in get per inviare la lunghezza della password
-    $length = $_GET['length'] ?? false;
+    $length = $_GET['length'];
 
     // creo la funzione per generare una password
     function genPassword($length) {
